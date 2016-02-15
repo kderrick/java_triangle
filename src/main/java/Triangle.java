@@ -27,6 +27,8 @@ public class Triangle {
       result = "Equilateral";
     } else if (((mLength1 == mLength2) && (mLength2 != mLength3)) || ((mLength1 == mLength3) && (mLength1 != mLength2))) {
       result = "Isosceles";
+    } else {
+      result = "Scalene";
     }
     return result;
   }
